@@ -11,7 +11,6 @@ img  {
   text {
     align: left
   }
-
 /* <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 400 to 800 */
 body  {
@@ -25,12 +24,10 @@ body {
   margin: 0;
   font-family: EB Garamond, Garamond, serif;
 }
-
 .topnav {
   overflow: hidden;
   background-color: #C4EFC7;
 }
-
 .topnav a {
   float: left;
   color: #423f3f;
@@ -39,15 +36,45 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
-
 .topnav a:hover {
   background-color: #F0E6AB;
   color: pale yellow;
 }
-
 .topnav a.active {
   background-color: #fcab53;
-  color: orange;
+  color: grey;
+}
+body {
+  margin: 0;
+  font-family: EB Garamond, Garamond, serif;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #C4EFC7;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #423f3f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background: #F0E6AB;
+  color: pale yellow;
+}
+.navbar a.active {
+  background-color: #fcab53;
+  color: grey;
+}
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
 }
 
 
