@@ -1,3 +1,10 @@
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #F0E6AB;
+  color: paleyellow;
+  font-size: 30px;
+}
 img  {
     float: right;
   }
@@ -7,12 +14,40 @@ img  {
 
 /* <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 400 to 800 */
-<style>
 body  {
-  font-family: "EB Garamond", "Garamond", serif;
+  font-family: EB Garamond, Garamond, serif;
   font-optical-sizing: 20px;
-  font-weight: <400>;
+  font-size: 
+  font-weight: 400;
   font-style: normal;
 }
-</style>
+body {
+  margin: 0;
+  font-family: EB Garamond, Garamond, serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #C4EFC7;
+}
+
+.topnav a {
+  float: left;
+  color: #423f3f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #F0E6AB;
+  color: pale yellow;
+}
+
+.topnav a.active {
+  background-color: #fcab53;
+  color: orange;
+}
+
 
