@@ -18,9 +18,8 @@ text {
 
 body  {
   font-family: EB Garamond, Garamond, serif;
-  font-optical-sizing: 20px;
-  font-size: 16px;
   font-weight: 400;
+  font-size: 16px;
   font-style: normal;
   margin: 0;
   font-family: EB Garamond, Garamond, serif;
@@ -79,7 +78,20 @@ body  {
   padding: 16px;
   margin-bottom: 30px;
 }
-table {border: none;}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+    style-width: 100px;
+}
 
 ul.no-bullets {
   list-style-type: none;
@@ -112,7 +124,7 @@ div.main-section-container {
   float: right;
 }
 
-/*Imgdivlibraries created to allow for cleaner spacing on Libraries page*/
+/*Imgdivlibraries created to allow for cleaner spacing*/
 .imgdivlibraries {
   margin: 0;
   padding: 0;
