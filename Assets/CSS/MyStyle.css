@@ -137,7 +137,7 @@ div.main-section-container {
 
 /*Div created for homepage only, so as to fill space effectively and highlight the welcome message*/
 .homepage {
-  font-size: 25px;
+  font-size: 24px;
 }
 
 /*Div created for contact page text only, so as to not effect other pages' text*/
@@ -177,7 +177,7 @@ div.main-section-container {
   }
 
   header {
-    
+
     padding: 8px;
     font-size: 14px;
   }
