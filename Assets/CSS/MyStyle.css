@@ -1,3 +1,5 @@
+
+/*Information across all pages*/
 .header {
   padding: 60px;
   text-align: center;
@@ -23,7 +25,6 @@ body  {
   margin: 0;
   font-family: EB Garamond, Garamond, serif;
 }
-
 
 .topnav {
   overflow: hidden;
@@ -52,10 +53,11 @@ body  {
 .navbar {
   overflow: hidden;
   background-color: #C4EFC7;
-  position: f;
+  position: sticky;
   bottom: 2;
   width: 100%;
 }
+
 .navbar a {
   float: left;
   display: block;
@@ -90,17 +92,32 @@ h4 {text-align: right;
 }
 
 div.main-section-container {
-  padding: 5%;
+  padding-top: 0%;
+  padding-right: 0%;
+  padding-left: 5%;
   margin: auto;
   text-align: left;
 }
 
-.wordsimgs {
-  width:25%;
-  height:auto;
+.textdiv {
+  width: 50%;
+  float: left
+}
+
+.imgdiv {
+  margin: 0;
+  padding: 0;
+  width:50%;
+  height: auto;
   float: right;
 }
 
-.wordsimgs a img {
-  display:block
+
+/*Div created for contact page text only, so as to not effect other pages' text*/
+.contactpage {
+  font-size: 25px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-right: 150px;
+  margin-left: 200px;
 }
