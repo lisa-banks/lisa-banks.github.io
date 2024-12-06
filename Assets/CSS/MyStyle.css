@@ -4,7 +4,7 @@
   padding: 60px;
   text-align: center;
   background: #F0E6AB;
-  color: paleyellow;
+
   font-size: 30px;
 }
 
@@ -16,10 +16,57 @@ text {
     align: left
   }
 
+/* Mobile devices (Portrait) */
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  nav {
+    text-align: left;
+    padding: 10px;
+  }
+
+  nav a {
+    font-size: 14px;
+    padding: 8px;
+    display: block; /* Stack links vertically */
+  }
+}
+
+/* Mobile devices (Landscape) */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px; /* Smaller text for smaller screens */
+  }
+
+  header {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  nav a {
+    padding: 6px;
+    font-size: 12px;
+  }
+}
+
+/* Very small screens, like phones in portrait mode */
+@media only screen and (max-width: 320px) {
+  header {
+    font-size: 12px;
+  }
+
+  nav a {
+    font-size: 12px;
+    padding: 5px;
+  }
+}
+
 body  {
   font-family: EB Garamond, Garamond, serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   margin: 0;
   font-family: EB Garamond, Garamond, serif;
@@ -85,6 +132,7 @@ table {
   
 }
 
+/*tr div created to enhance legibility for end user*/
 tr {
   border-bottom: 1px solid #ddd;
 }
@@ -99,9 +147,11 @@ ul.no-bullets {
   padding: 1,4;
 }
 
+/*h4 div created to ensure consistency across pages*/
 h4 {text-align: right;
     font-size:40px
 }
+
 
 div.main-section-container {
   padding-top: 0%;
@@ -111,6 +161,7 @@ div.main-section-container {
   text-align: left;
 }
 
+/*Textdiv and imgdiv created to ensure clean, legible layout*/ 
 .textdiv {
   width: 50%;
   float: left
@@ -124,7 +175,7 @@ div.main-section-container {
   float: right;
 }
 
-/*Imgdivlibraries created to allow for cleaner spacing*/
+/*Imgdivlibraries created to allow for cleaner spacing on specific page*/
 .imgdivlibraries {
   margin: 0;
   padding: 0;
