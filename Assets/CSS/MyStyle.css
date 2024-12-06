@@ -78,10 +78,9 @@ body  {
   margin-bottom: 30px;
 }
 
-table {
+.table {
   border-collapse: collapse;
   width: 100%;
-  
 }
 
 /*tr div created to enhance legibility for end user*/
