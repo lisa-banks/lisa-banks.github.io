@@ -52,7 +52,7 @@ body  {
   overflow: hidden;
   background-color: #C4EFC7;
   position: sticky;
-  bottom: 2px;
+  bottom: 0;
   width: 100%;
 }
 
