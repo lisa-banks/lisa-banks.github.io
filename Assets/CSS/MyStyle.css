@@ -112,6 +112,14 @@ div.main-section-container {
   float: right;
 }
 
+/*Imgdivlibraries created to allow for cleaner spacing on Libraries page*/
+.imgdivlibraries {
+  margin: 0;
+  padding: 0;
+  width:40%;
+  height: auto;
+  float: right;
+}
 
 /*Div created for contact page text only, so as to not effect other pages' text*/
 .contactpage {
