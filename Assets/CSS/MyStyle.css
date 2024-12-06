@@ -8,7 +8,7 @@
   font-size: 30px;
 }
 
-img  {
+img {
     float: right;
   }
 
@@ -139,6 +139,7 @@ div.main-section-container {
 .homepage {
   font-size: 24px;
 }
+
 
 /*Div created for contact page text only, so as to not effect other pages' text*/
 .contactpage {
