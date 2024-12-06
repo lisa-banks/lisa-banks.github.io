@@ -31,7 +31,7 @@ body  {
 
 .topnav a {
   float: left;
-  color: #423f3f;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -45,7 +45,7 @@ body  {
 
 .topnav a.active {
   background-color: #fcab53;
-  color: grey;
+  color: black;
 }
 
 .navbar {
@@ -59,7 +59,7 @@ body  {
 .navbar a {
   float: left;
   display: block;
-  color: #423f3f;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -71,7 +71,7 @@ body  {
 }
 .navbar a.active {
   background-color: #fcab53;
-  color: grey;
+  color: black;
 }
 .main {
   padding: 16px;
@@ -177,13 +177,11 @@ div.main-section-container {
   }
 
   header {
-
     padding: 8px;
     font-size: 14px;
   }
 
   nav a {
-
     padding: 6px;
     font-size: 12px;
   }
