@@ -149,15 +149,17 @@ div.main-section-container {
   margin-left: 200px;
 }
 
-* Mobile devices (Portrait) */
+/*Mobile devices (Portrait) */
 @media only screen and (max-width: 768px) {
   header {
     padding: 10px;
+
   }
 
   nav {
     text-align: left;
     padding: 10px;
+
   }
 
   nav a {
@@ -171,10 +173,11 @@ div.main-section-container {
 @media (max-width: 480px) {
   body {
     font-size: 14px; /* Smaller text for smaller screens */
+
   }
 
   header {
-
+    
     padding: 8px;
     font-size: 14px;
   }
